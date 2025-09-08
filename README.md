@@ -1,49 +1,12 @@
-# Resume Analyzer (React + Node + Gemini AI)
+# React + Vite
 
-This project is a **Resume Analyzer Web App** that extracts text from resumes (PDFs), sends it to **Google Gemini AI**, and provides structured insights.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
-- Upload resumes (PDF)
-- Extract text using `pdf-parse`
-- Analyze with Gemini AI
-- Show results in **cards**:
-  - 🎯 Well Tried
-  - 📊 Resume Rating (out of 10)
-  - ✅ Key Strengths
-  - 📌 Areas to Upskill
-- View extracted raw text (collapsible)
-- Professional UI with React + CSS
-- Footer with **social links**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🛠 Tech Stack
-- **Frontend**: React (Vite) + CSS
-- **Backend**: Express.js + Multer + Axios
-- **AI**: Google Gemini API
-- **File Parsing**: pdf-parse
-
----
-
-## 📂 Project Structure
-resume-analyzer/
-│
-├── backend/                # Express backend
-├── frontend/               # React frontend
-│
-├── sample_data/            # Test resumes
-│   ├── resume1.pdf
-│   ├── resume2.pdf
-│
-├── screenshots/            # UI screenshots
-│   ├── upload_page.png
-│   ├── results_page.png
-│   ├── history_table.png
-│   └── details_modal.png
-│
-├── README.md               # Documentation
-└── package.json
-
-# ResumeAnalyzer
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
